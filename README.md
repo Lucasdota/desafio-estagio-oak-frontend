@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center">
+  Desafio Estágio Oak Tecnologia
+<h1/>
 
-## Getting Started
+### Descrição do desafio
+Requisito: 𝐂𝐚𝐝𝐚𝐬𝐭𝐫𝐨 𝐞 𝐥𝐢𝐬𝐭𝐚𝐠𝐞𝐦 𝐝𝐞 𝐩𝐫𝐨𝐝𝐮𝐭𝐨𝐬
 
-First, run the development server:
+𝐂𝐚𝐝𝐚𝐬𝐭𝐫𝐨:
 
+- Formulário com os campos abaixo:
+
+  - Nome do produto - campo de texto
+  - Descrição do produto - campo de texto
+  - Valor do produto - campo de valor
+  - Disponível para venda - campo com 2 opções: sim / não
+
+𝐋𝐢𝐬𝐭𝐚𝐠𝐞𝐦:
+
+- Colunas da listagem: nome, valor
+- Ordenação por valor do menor para o maior
+- Quando cadastrar um novo produto é para abrir a listagem automaticamente
+- Deve existir um botão para cadastrar um novo produto a partir da listagem
+
+### Aparência
+![desafio-oka-pic](https://github.com/user-attachments/assets/37d47214-fd1e-40c7-b90c-0c83db33b50c)
+
+### Instalação
+
+Para instalar uma aplicação frontend com Next.js e React, você deve seguir alguns passos básicos. Primeiro, clone o repositório do projeto, navegue até o diretório do projeto e instale as dependências usando npm ou yarn. Depois, inicie o servidor de desenvolvimento e acesse a aplicação no navegador.
+
+#### Clone o Repositório:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Lucasdota/desafio-estagio-oak-frontend/edit/master/README.md
+cd desafio-estagio-oak-frontend
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Instale as Dependências 
+Use npm ou yarn para instalar as dependências necessárias. 
+Você pode escolher um dos seguintes comandos:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Usando npm:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm install
+```
 
-## Learn More
+Ou usando yarn:
+```bash
+yarn install
+```
 
-To learn more about Next.js, take a look at the following resources:
+#### Execute o Servidor de Desenvolvimento
+```bash
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Ou se você estiver usando yarn:
+```bash
+yarn dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Importante**: Não esqueça de acessar o repositório do backend e seguir suas instruções para rodar tanto o frontend como o backend ao mesmo tempo para testar a aplicação com sucesso!
 
-## Deploy on Vercel
+Certifique-se de ter o seguinte instalado em sua máquina:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Node.js (versão 14 ou superior)
+- npm (vem com o Node.js) ou Yarn (opcional)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Abra [http://localhost:3000](http://localhost:3000) com seu browser para ver o resultado.
+
+Para aprender mais sobre Next.js, dê uma olhada nessas páginas:
+
+- [Next.js Documentation](https://nextjs.org/docs) - Aprenda sobre Next.js.
+- [Learn Next.js](https://nextjs.org/learn) - Tutorial interativo de Next.js.
