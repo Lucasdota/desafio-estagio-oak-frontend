@@ -64,7 +64,7 @@ Ou se você estiver usando yarn:
 yarn dev
 ```
 
-**Importante**: Não esqueça de acessar o repositório do backend e seguir suas instruções para rodar tanto o frontend como o backend ao mesmo tempo para testar a aplicação com sucesso!
+**Importante**: Não esqueça de acessar o repositório do [backend](https://github.com/Lucasdota/desafio-estagio-oak-backend) e seguir suas instruções para rodar tanto o frontend como o backend ao mesmo tempo para testar a aplicação com sucesso!
 
 Certifique-se de ter o seguinte instalado em sua máquina:
 
