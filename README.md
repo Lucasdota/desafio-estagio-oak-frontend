@@ -30,7 +30,7 @@ Para instalar uma aplicação frontend com Next.js e React, você deve seguir al
 
 #### Clone o Repositório:
 ```bash
-git clone https://github.com/Lucasdota/desafio-estagio-oak-frontend/edit/master/README.md
+git clone https://github.com/Lucasdota/desafio-estagio-oak-frontend
 cd desafio-estagio-oak-frontend
 ```
 
